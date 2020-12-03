@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Топ ноутбуків</title>
+
+    <link rel="stylesheet" href="../reset.css">
+
+    <style>
+        
+        * {
+            color: rgb(210, 210, 210);
+        }
+
+        body {
+            background-color: rgb(23, 23, 23);
+        }
+
+        .header {
+            background-color: black;
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .nav {
+            display: flex;
+            width: 150px;
+            justify-content: space-between;
+        }
+
+        .link {
+            text-decoration: none;
+        }
+
+        .laptop {
+            padding: 0 30px;
+        }
+
+        .laptop__name {
+            font-size: 32px;
+            margin: 50px 0;
+            font-weight: 700;
+            text-align: center;
+
+        }
+
+        .laptop__container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .laptop__img {
+            width: 60%;
+        }
+
+        .laptop__pricer {
+            margin: 50px auto;
+            width: 180px;
+        }
+
+        .laptop__price {
+            color: rgb(0, 151, 0);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .laptop__features {
+            font-size: 16px;
+        }
+
+        .laptop__text {
+            margin-bottom: 20px;
+            text-indent: 1.5em;
+            text-align: justify;
+        }
+
+        b {
+            font-weight: 700;
+        }
+
+        hr {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        .laptop__button {
+            margin-top: 15px;
+            border-radius: 7px;
+            text-decoration: none;
+            background-color: rgb(0, 83, 151);
+            width: 180px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s;
+        }
+
+        .laptop__button:hover {
+            background-color: rgb(196, 196, 196);
+            color: rgb(0, 83, 151);
+            transform: scale(1.02);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <h3 class="logo">Топ ноутбуків 2020</h3>
+        <ul class="nav">
+            <li class="nav__item">
+                <a class="link" href="./menu.html">Меню</a>
+            </li>
+            <li class="nav__item">
+                <a class="link" href="../index.html">Головна</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="laptop">
+        <h1 class="laptop__name">Dell XPS 15 (2020)</h1>
+        <div class="laptop__container">
+        <img class="laptop__img" src="../images/dell.png" alt="Dell">
+        </div>
+        <div class="laptop__pricer">
+            <marquee class="laptop__price" behavior="alternate" direction="right">1,729$</marquee>
+            <a class="laptop__button" href="https://www.amazon.de/s?k=Dell+XPS+15+9500&ascsubtag=trd-row-4559447618040457700-20&tag=georiot-de-new-21">Переглянути</a>
+        </div>
+        <p class="laptop__features"><b>CPU</b>: 10th-generation Intel Core i5 – i7 | <b>Graphics</b>: Intel Iris Plus Graphics - Nvidia GeForce GTX 1650 Ti | <b>RAM</b>: 8GB – 64GB | <b>Screen</b>: 15.6" FHD+ (1920 x 1200) IPS - UHD+ (3840 x 2400) | <b>Storage</b>: 256GB – 1TB SSD</p>
+        <hr>
+        <p class="laptop__text">The Dell XPS 15 ticks pretty much every box when it comes to what we want from a laptop. The end result is that the Dell XPS 15 (2020) is about as close to perfect as a laptop can get and one of the best Dell laptops to date; there's really not a lot we can fault it for. It's got some of the latest, and best, mobile tech from Intel, and can even be configured with a discrete GPU, making it adept at images and as for video editing software, and even a spot of light gaming.</p>
+        <p class="laptop__text">It also features one of the finest designs we've seen in a laptop, and is arguably the most stylish Windows 10 laptop on the market right now. Battery life is also phenomenal, and the price, while high, isn't that bad considering what you get. If the 15-inch screen is a little too big, then the Dell XPS 13 (also on this list) is worth considering, as is the MacBook Air above.</p>
+    </div>
+</body>
+</html>

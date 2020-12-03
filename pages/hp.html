@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Топ ноутбуків</title>
+
+    <link rel="stylesheet" href="../reset.css">
+
+    <style>
+        
+        * {
+            color: rgb(210, 210, 210);
+        }
+
+        body {
+            background-color: rgb(23, 23, 23);
+        }
+
+        .header {
+            background-color: black;
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .nav {
+            display: flex;
+            width: 150px;
+            justify-content: space-between;
+        }
+
+        .link {
+            text-decoration: none;
+        }
+
+        .laptop {
+            padding: 0 30px;
+        }
+
+        .laptop__name {
+            font-size: 32px;
+            margin: 50px 0;
+            font-weight: 700;
+            text-align: center;
+
+        }
+
+        .laptop__container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .laptop__img {
+            width: 60%;
+        }
+
+        .laptop__pricer {
+            margin: 50px auto;
+            width: 180px;
+        }
+
+        .laptop__price {
+            color: rgb(0, 151, 0);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .laptop__features {
+            font-size: 16px;
+        }
+
+        .laptop__text {
+            margin-bottom: 20px;
+            text-indent: 1.5em;
+            text-align: justify;
+        }
+
+        b {
+            font-weight: 700;
+        }
+
+        hr {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        .laptop__button {
+            margin-top: 15px;
+            border-radius: 7px;
+            text-decoration: none;
+            background-color: rgb(0, 83, 151);
+            width: 180px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s;
+        }
+
+        .laptop__button:hover {
+            background-color: rgb(196, 196, 196);
+            color: rgb(0, 83, 151);
+            transform: scale(1.02);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <h3 class="logo">Топ ноутбуків 2020</h3>
+        <ul class="nav">
+            <li class="nav__item">
+                <a class="link" href="./menu.html">Меню</a>
+            </li>
+            <li class="nav__item">
+                <a class="link" href="../index.html">Головна</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="laptop">
+        <h1 class="laptop__name">HP Spectre x360 (2020)</h1>
+        <div class="laptop__container">
+        <img class="laptop__img" src="../images/hp.png" alt="HP">
+        </div>
+        <div class="laptop__pricer">
+            <marquee class="laptop__price" behavior="alternate" direction="right">1,729$</marquee>
+            <a class="laptop__button" href="https://www.amazon.de/s?k=hp+spectre+x360+2020+gem+cut+13+3+fhd+touch+laptop+intel+i7+1065g7+16gb+ram+512gb+ssd+bang+olufsen+fingerprint+reader+hp+stylus+nightfall+black+win+10+pro+64gb+techwarehouse+flash+drive&ascsubtag=trd-row-9959606714344413000-20&tag=georiot-de-new-21">Переглянути</a>
+        </div>
+        <p class="laptop__features"><b>CPU</b>: 10th-generation Intel Core i5 – i7 | <b>Graphics</b>: Intel Iris Plus Graphics | <b>RAM</b>: 8GB – 16GB | <b>Screen</b>: 13.3" FHD (1920 x 1080) IPS BrightView micro-edge WLED-backlit multitouch – 13.3" diagonal 4K (3840 x 2160) UWVA BrightView micro-edge AMOLED multitouch | <b>Storage</b>: 256GB – 2TB SSD</p>
+        <hr>
+        <p class="laptop__text">The HP Spectre x360 2-in-1 laptop has had a big refresh for 2020, and the boost in specs, with 10th-generation Intel Core processors and Intel Iris Plus graphics, along with the impeccable 2-in-1 design and pristine gem-cut chassis, means that the new version has a well-deserved spot towards the top of our best laptops list.</p>
+        <p class="laptop__text">HP has been on a roll of late, with the excellent HP Elite Dragonfly also appearing high in our best laptops list (you'll find it a few places below), but when it comes to build quality, design and pure performance, the HP Spectre x360 (2020) is easily one of the best 13-inch laptops you can buy right now in 2020, rivalled only by the excellent MacBook Air (M1, 2020), which is at the top of this guide.</p>
+        <p class="laptop__text">While it's certainly pricey, you're getting some excellent extras, such as formidable security features and Bang & Olufsen speakers. If you care about aesthetics as much as you do performance and overall quality, this is the laptop for you.</p>
+    </div>
+</body>
+</html>

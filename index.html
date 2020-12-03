@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Топ ноутбуків</title>
+
+    <link rel="stylesheet" href="./reset.css">
+
+    <style>
+
+        * {
+            color: rgb(210, 210, 210);
+        }
+
+        .home {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(23, 23, 23);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home__list {
+            width: 550px;
+        }
+
+        .home__item {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .home__name {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .home__img {
+            width: 500px;
+            border-radius: 20px;
+        }
+
+        .home__author {
+            margin: 20px auto 10px;
+            font-size: 20px;
+        }
+
+        .home__p {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .home__button {
+            margin-top: 15px;
+            border-radius: 7px;
+            text-decoration: none;
+            background-color: rgb(0, 83, 151);
+            width: 180px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s;
+        }
+
+        .home__button:hover {
+            background-color: rgb(196, 196, 196);
+            color: rgb(0, 83, 151);
+            transform: scale(1.02);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="home">
+        <ul class="home__list">
+            <li class="home__item">
+                <h1 class="home__name">Топ 3 ноутбуки 2020 року</h1>
+            </li>
+            <li class="home__item">
+                <img class="home__img" src="./images/home.jpg" alt="Home picture">
+            </li>
+            <li class="home__item">
+                <h3 class="home__author">Гречко Павло І-41</h3>
+            </li>
+            <li class="home__item">
+                <p class="home__p">Комунальний заклад "Полтавський міський багатопрофільний ліцей №1 імені І.П. Котляревського"</p>
+            </li>
+            <li class="home__item">
+                <a class="home__button" href="./pages/menu.html">Дізнатися більше</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
